@@ -1,0 +1,56 @@
+# Visual Studio
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build directories
+bin/
+obj/
+[Bb]uild[Ll]og/
+# Avoid publishing build artifacts from dotnet CLI
+**/bin/
+**/obj/
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider and other JetBrains IDEs
+.idea/
+*.sln.iml
+
+# Azure Functions
+local.settings.json
+
+# User-specific files
+*.rsuser
+*.sln.docstates
+
+# Mono auto generated files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# macOS files
+.DS_Store
+
+# Sensitive files
+*.env
+*.key
+*.pfx
+
+# Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# StyleCop
+StyleCopReport.xml
